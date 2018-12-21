@@ -5,10 +5,10 @@ import com.github.dozer.coroutine.helpers.RunEachFrameTask;
 import edu.wpi.first.wpilibj.Relay;
 
 
-public class FireTube1 extends RunEachFrameTask {
+public class FireTube extends RunEachFrameTask {
   Relay relay;
   private BooleanSupplier controllerButtonPressed;
-  public FireTube1 (Relay relay, BooleanSupplier controllerButtonPressed) {
+  public FireTube (Relay relay, BooleanSupplier controllerButtonPressed) {
     this.relay = relay;
     this.controllerButtonPressed = controllerButtonPressed;
   }

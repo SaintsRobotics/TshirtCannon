@@ -1,7 +1,8 @@
 package com.saintsrobotics.TshirtCannon.tasks.teleop;
 
 import com.github.dozer.coroutine.helpers.RunEachFrameTask;
-import com.saintsrobotics.TshirtCannon2018.Robot;
+import com.saintsrobotics.TshirtCannon.Robot;
+
 import edu.wpi.first.wpilibj.Relay;
 
 public class CloseTubes extends RunEachFrameTask {
@@ -19,10 +20,16 @@ public class CloseTubes extends RunEachFrameTask {
   @Override
   protected void runEachFrame() {
     wait.until(() ->  Robot.instance.oi.xboxInput.LB());
-    tube1.set(Relay.Value.kOff);
+    tube1.set(Relay.Value.kReverse);
     tube2.set(Relay.Value.kReverse);
     tube3.set(Relay.Value.kReverse);
     tube4.set(Relay.Value.kReverse);
+    wait.forSeconds(0.5);
+    tube1.set(Relay.Value.kOff);
+    tube2.set(Relay.Value.kOff);
+    tube3.set(Relay.Value.kOff);
+    tube4.set(Relay.Value.kOff);
+    
   }
   
 }

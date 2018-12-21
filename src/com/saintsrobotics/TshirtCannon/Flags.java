@@ -1,4 +1,4 @@
-package com.saintsrobotics.TshirtCannon2018;
+package com.saintsrobotics.TshirtCannon;
 
 import com.saintsrobotics.TshirtCannon.util.ForwardConfiguration;
 import com.saintsrobotics.TshirtCannon.util.TurnConfiguration;
