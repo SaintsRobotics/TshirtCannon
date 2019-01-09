@@ -66,8 +66,8 @@ public class Robot extends TaskRobot {
     
     //tube1.setDirection(Relay.Direction.kReverse);
     XboxInput c = Robot.instance.oi.xboxInput;
-    this.teleopTasks = new Task[] {new ArcadeDrive(), new FireTube(tube1, () -> c.A()), new FireTube(tube1, () -> c.B()), 
-        new FireTube(tube1, () -> c.X()), new FireTube(tube1, () -> c.Y()), new CloseTubes(tube1, tube2, tube3, tube4),
+    this.teleopTasks = new Task[] {new ArcadeDrive(), new FireTube(tube1, () -> c.A()), new FireTube(tube2, () -> c.B()), 
+        new FireTube(tube3, () -> c.X()), new FireTube(tube4, () -> c.Y()), new CloseTubes(tube1, tube2, tube3, tube4),
         
         new RunEachFrameTask() {
 

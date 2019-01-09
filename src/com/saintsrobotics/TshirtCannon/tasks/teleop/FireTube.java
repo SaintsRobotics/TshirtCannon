@@ -22,7 +22,7 @@ public class FireTube extends RunEachFrameTask {
       relay.set(Relay.Value.kForward);
       wait.forSeconds(0.5);
       relay.set(Relay.Value.kOff);
-      wait.forSeconds(1);
+      wait.forSeconds(5);
       relay.set(Relay.Value.kReverse);
       wait.forSeconds(0.5);
       relay.set(Relay.Value.kOff);

@@ -4,5 +4,7 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="lib" path="C:/Users/SaintsRobotics 1899/wpilib/java/current/lib/WPILib.jar"/>
 	<classpathentry kind="lib" path="C:/Users/SaintsRobotics 1899/wpilib/user/java/lib/Dozer.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/wpilib/java/current/lib/WPILib.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/wpilib/user/java/dozerVersions/Dozer15.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
