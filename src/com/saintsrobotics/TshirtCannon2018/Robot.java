@@ -1,4 +1,4 @@
-package com.saintsrobotics.TshirtCannon;
+package com.saintsrobotics.TshirtCannon2018;
 
 import java.util.function.Supplier;
 import com.github.dozer.TaskRobot;
